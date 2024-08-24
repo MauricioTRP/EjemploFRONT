@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">Inicio</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler navbar-toggler-right " type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
                 Menu
@@ -79,14 +79,18 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg"
-                        alt="..." /></div>
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 grayscale"
+                        src="https://www.curriculumnacional.cl/estudiante/621/articles-30412_thumbnail.jpg" alt="..." />
+                </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4>Shoreline</h4>
-                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use
-                            it for any project - even commercial projects! Download it, customize it, and publish your
-                            website!</p>
+                        <h4>Tradiciones</h4>
+                        <p class="text-black-50 mb-0">La minga es una tradición ancestral en Chiloé que representa la
+                            solidaridad y el trabajo comunitario. Durante una minga, vecinos y familiares se unen para
+                            ayudar en grandes tareas, como trasladar una casa o cosechar campos. Este evento no solo
+                            refleja el fuerte sentido de comunidad de los chilotes, sino que también es una celebración
+                            llena de música, comida y compañerismo, donde la reciprocidad y la colaboración son el eje
+                            central.</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +132,7 @@
             <div class="row gx-4 gx-lg-5">
                 <div class="col-md-10 col-lg-8 mx-auto text-center">
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                    <h2 class="text-white mb-5">Suscríbete para recibir panoramas!</h2>
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->
                     <!-- * * * * * * * * * * * * * * *-->
@@ -140,14 +144,16 @@
                         <!-- Email address input-->
                         <div class="row input-group-newsletter">
                             <div class="col"><input class="form-control" id="emailAddress" type="email"
-                                    placeholder="Enter email address..." aria-label="Enter email address..."
+                                    placeholder="Ingresa un correo electrónico..."
+                                    aria-label="Ingresa un correo electrónico..."
                                     data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton"
-                                    type="submit">Notify Me!</button></div>
+                            <div class="col-auto"><button class="btn btn-dark disabled" id="submitButton"
+                                    type="submit">Notificame!</button></div>
                         </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is
-                            required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">Un correo
+                            electrónico es requerido.</div>
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Por favor, ingresa un
+                            correo electrónico válido.
                         </div>
                         <!-- Submit success message-->
                         <!---->
@@ -155,11 +161,7 @@
                         <!-- has successfully submitted-->
                         <div class="d-none" id="submitSuccessMessage">
                             <div class="text-center mb-3 mt-2 text-white">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a
-                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                <div class="fw-bolder">Formulario enviado correctamente!</div>
                             </div>
                         </div>
                         <!-- Submit error message-->
@@ -167,7 +169,7 @@
                         <!-- This is what your users will see when there is-->
                         <!-- an error submitting the form-->
                         <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
+                            <div class="text-center text-danger mb-3 mt-2">Error al enviar el formulario!</div>
                         </div>
                     </form>
                 </div>
@@ -181,28 +183,28 @@
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Address</h4>
+                            <i class="fas fa-map-marked-alt text-dark mb-2"></i>
+                            <h4 class="text-uppercase m-0">Oficina Turistica</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            <div class="small text-black-50">Calle Falsa #123, Isla Grande Chiloé, Chile</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-envelope text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Email</h4>
+                            <i class="fas fa-envelope text-dark mb-2"></i>
+                            <h4 class="text-uppercase m-0">Correo Electrónico</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                            <div class="small text-black-50"><a href="#!">chiloe@oficinaturismo.cl</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <i class="fas fa-mobile-alt text-dark mb-2"></i>
+                            <h4 class="text-uppercase m-0">Telefóno</h4>
                             <hr class="my-4 mx-auto" />
                             <div class="small text-black-50">+1 (555) 902-8832</div>
                         </div>
@@ -218,7 +220,7 @@
     </section>
     <!-- Footer-->
     <footer class="footer bg-black small text-center text-white-50">
-        <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div>
+        <div class="container px-4 px-lg-5">Copyright &copy; Oficina Turismo de Chiloé 2024</div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
